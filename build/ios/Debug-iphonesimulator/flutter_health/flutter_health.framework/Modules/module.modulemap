@@ -1,0 +1,11 @@
+framework module flutter_health {
+  umbrella header "flutter_health-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_health.Swift {
+    header "flutter_health-Swift.h"
+    requires objc
+}

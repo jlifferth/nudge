@@ -1,0 +1,11 @@
+framework module healthhub {
+  umbrella header "healthhub-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module healthhub.Swift {
+    header "healthhub-Swift.h"
+    requires objc
+}
